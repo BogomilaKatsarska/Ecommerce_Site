@@ -14,3 +14,6 @@ class Product(models.Model):
     image = models.CharField(
         max_length=300,
     )
+
+    class Meta:
+        ordering=['id']
